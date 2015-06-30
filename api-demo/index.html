@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Exchange Rate API Demonstration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="money.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5dk3iD-llq43jGBAkIJNviN0YmHuePNs&sensor=false"></script>
+	<script type="text/javascript" src="application.js"></script>
+
+	<!--[if !IE 7]>
+		<style type="text/css">
+			#wrap {display:table;height:100%}
+		</style>
+	<![endif]-->
+</head>
+<body>
+	<div id="header">
+		<h1>Get current exchange rates by country</h1>
+	</div>
+	<div id="wrap">
+		<div id="menu">
+			<div id="input">
+				<h3>Enter a country </br>or currency code</h3>
+				<form id="country_input">
+					<input id="country" type="text" placeholder="Australia" required autocomplete="off" /></br>
+					<button type="submit" id="submit">SUBMIT!</button>
+				</form>
+			</div>
+			<div id="history">
+				<h4 id="ps">Recent Searches</h4>
+				<ol id="search_history" type="decimal">
+				</ol>
+			</div>
+		</div>
+		<div id="content">
+			<p id="country_name"></p>
+			<div id="country_map"><p></p></div>
+			<p id="country_fx"></p>
+			<p id="country_description"></p>
+		</div>
+	</div>
+	<div id="footer">
+		<ul id="foot_menu">
+			<li class="fm"><a href="http://www.thinkful.com">Thinkful</a></li>
+			<li class="fm"><a href="http://www.openexchangerates.org">Open Exchange Rates</a></li>
+			<li class="fm"><a href="http://www.chfdev.com">chfdev</a></li>
+		</ul>
+	</div>
+</body>
+</html>

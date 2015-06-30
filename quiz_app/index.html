@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz Application</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>---Weclome to the Quiz App---</h1>
+		</div>
+		<div id="intro">
+			<h2>Press begin to start the quiz!</h2>
+			<input type="button" id="begin_quiz" value="Begin!">
+		</div>
+		<div id="finished_page">
+			<h2>You finished the quiz!</h2>
+			<p id="score">Your score was <span></span></p>
+			<p id="feedback"></p>
+			<input type="button" id="retry" value="Try again!">
+		</div>
+		<div id="question_container">
+			<p id="question">Example Question</p>
+			<form id="main_form">
+				<input type="radio" name="answer" value="0"><span id="op1"></span></br>
+				<input type="radio" name="answer" value="1"><span id="op2"></span></br>
+				<input type="radio" name="answer" value="2"><span id="op3"></span></br>
+				<input type="radio" name="answer" value="3"><span id="op4"></span></br>
+				<p id="submit_line"><input type="submit" name= "submit" id="submit_button" value="Submit"></p>
+			</form>
+			<p id="progress_tracker">Questions answered: <span></span></p>
+		</div>
+	</div>
+</body>
+</html>
+	
