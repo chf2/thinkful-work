@@ -1,0 +1,80 @@
+html{
+	font-family:sans-serif;
+}
+
+#intro{
+	text-align:center;
+	height:100px;
+	min-width:800px;
+	background-color:white;
+}
+#header{
+	margin-top:50px;
+}
+#center{
+	text-align:center;
+	height:300px;
+	width:800px;
+	background-color:#a9e3e5;
+	margin: 0 auto;
+	border-radius:10px;
+	border:1px solid black;
+	box-shadow:1px;
+}
+#victories{
+	position:absolute;
+	margin-left:0px;
+	margin-top:58px;
+	height: 16px;
+	width: 120px;
+	text-align:left;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	border-bottom-left-radius:8px;
+	border-top-right-radius:8px;
+	padding:5px;
+	font-size:smaller;
+	color:#c1b633;
+	background-color:white;
+}
+#victories span{
+	color:black;
+}
+
+#input{
+	position:relative;
+	top:45px;
+	text-align:center;
+}
+#maininput{
+	height:50px;
+	width:75px;
+	font-size:30px;
+	text-align:center;
+}
+#maininput:focus{
+	outline:0;
+}
+.btn{
+	margin-top:20px;
+	width:80px;
+	height:30px;
+	border-radius:7px;
+	background-color:#73e77d;
+	border: 2px solid black;
+	box-shadow:1px;
+}
+.btn:focus{
+	outline:0;
+}
+#ng{
+	background-color:#ffffff;
+}
+#feedback{
+	margin-top:8px;
+}
+.newgame{
+	font-size:24px;
+	color:white;
+	margin-top:0px;
+}
